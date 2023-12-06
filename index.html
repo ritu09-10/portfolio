@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personal Portfolio Website</title>
+    <link rel="stylesheet" href="index.css">
+    <script src="https://kit.fontawesome.com/e674bba739.js" crossorigin="ritu"></script>
+</head>
+
+<body>
+    <div id="header">
+        <div class="container">
+            <nav>
+                <ul>
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#services">Skills</a></li>
+                    <li><a href="#portfolio">Portfolio</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                    <i class="fas fa-times"></i>
+                </ul>
+                <i class="fas fa-bars"></i>
+            </nav>
+            <div class="header-text">
+                <p>Full Stack Web Developer</p>
+                <h1>Hi, I'm <span>Ritu</span><br>Verma</h1>
+            </div>
+        </div>
+    </div>
+    <!-- ----------ABOUT---------- -->
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="./images/ritu_profile.jpg">
+                </div>
+                <div class="about-col-2">
+                    <h1 class="sub-title">About Me</h1>
+                    <p>Hello! I am Ritu Verma, a dedicated and inquisitive computer science student.
+                    I am committed to exploring the fascinating world of algorithms, data structures, and software development.
+                    I am currently pursuing a B.Tech in Information Technology at Kamla Nehru Institute of Technology.
+                    I have gained practical experience through internships and personal projects,
+                    which have strengthened my programming prowess and exposed me to the real-world applications.
+                    Proficient in Python and Cpp language.I actively participate in hackathons, workshops,
+                    and open-source contributions to expand my knowledge and skillset.
+                    </p>
+                    <div class="tab-titles">
+                        <p class="tab-links active-link" onclick="openTab('skills')">Skills</p>
+                        <p class="tab-links" onclick="openTab('experience')">Experience</p>
+                        <p class="tab-links" onclick="openTab('education')">Education</p>
+                    </div>
+                    <div class="tab-contents active-tab" id="skills">
+                        <ul>
+                            <li><span>Web Development</span><br>Building Frontend websites</li>
+                            <li><span>Full Stack Development</span><br>Create functional websites</li>
+                            <li><span>Graphic Designer</span><br>Poster Designing</li>
+                            <li><span>Data Science</span><br>Extracting insights and knowledge from Data </li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="experience">
+                        <ul>
+                            <li><span>2022</span><br>Frontend Developer</li>
+                            <li><span>2023</span><br>Mern Developer at Webstack Academy</li>
+                            <li><span>2021</span><br>Graphic Designer  </li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="education">
+                        <ul>
+                            <li><span>2021-Current</span><br>Btech from KNIT Sultanpur</li>
+                            <li><span>2023-2024</span><br>Data Science Course from 365 Data Science</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- ----------SERVICES---------- -->
+    <div id="services">
+        <div class="container">
+            <h1 class="sub-title">My Services</h1>
+            <div class="services-list">
+                <div>
+                    <i class="fa-solid fa fa-code"></i>
+                    <h2>Web Development</h2>
+                    <p>I am a passionate web developer with 3 years of experience in the field. Throughout my career,
+                    I have had the opportunity to work on a wide range of projects and collaborate with diverse teams.</p>
+                </div>
+                <div>
+                    <i class="fa-solid fas fa-desktop"></i>
+                    <h2>MERN Stack Development</h2>
+                    <p>I am a dedicated MERN stack developer with 2 months of experience in building web applications using
+                    MongoDB, Express.js, React, and Node.js.Over the last month internship,I have worked on various projects and honed my skills in this stack. </p>
+                </div>
+                <div>
+
+                    <i class="fa-solid fa-times"></i>
+                    <h2>Graphic Designing</h2>
+                    <p>I am a passionate graphic designer with couple years of experience in the creative industry.
+                    My career has been marked by a deep love for design,a commitment to delivering visually compelling solutions,
+                    and a dedication to meeting client needs.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- ----------PORTFOLIO--------- -->
+    <div id="portfolio">
+        <div class="container">
+        <h1 class="sub-title">My Works</h1>
+            <div class="work-list">
+                <div class="work">
+                    <img src="./images/hotel.png" alt="">
+                    <div class="layer">
+                        <h2>Hotel Management Website</h2>
+                        <p>Our hotel management website project is the culmination of hard work and creativity by my team.
+                        This project showcases our commitment to delivering practical solutions for the industry.</p>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="./images/Food Delivery.png" alt="">
+                    <div class="layer">
+                        <h2>Food Delivery Website</h2>
+                        <p>My food delivery website project represents the culmination of my internship experience,
+                        where I had the opportunity to combine my passion for technology with my interest in the culinary world.</p>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="./images/Portfolio.png" alt="">
+                    <div class="layer">
+                        <h2>My Personal Portfolio</h2>
+                        <p>My personal portfolio website is a reflection of my journey as a Web Developer,Graphic Designer and Data Analyst.
+                        It serves as a digital showcase of my skills, creativity, and the projects I'm passionate about.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- ----------CONTACT---------- -->
+    <div id="contact">
+        <div class="container">
+            <div class="row">
+                <div class="contact-left">
+                    <h1 class="sub-title">Contact Me</h1>
+                    <p><i class="fas fa-envelope"></i>rituverma.dzr@gmail.com</p>
+                    <p><i class="fas fa-phone-square-alt"></i>+918905230626</p>
+                    <div class="social-icons">
+                        <a href="https://www.facebook.com/profile.php?id=100079201555589&mibextid=ZbWKwL"><i class="fab fa-facebook"></i></a>
+                        <a href="https://instagram.com/_riggv_?igshid=OTk0YzhjMDVlZA=="><i class="fab fa-instagram"></i></a>
+                        <a href="https://www.linkedin.com/in/ritu-v-5a0799234/"><i class="fab fa-linkedin"></i></a>
+                    </div>
+                    <a href="./pdf/Ritu_Resume.pdf" download class="btn btn2">Download Resume</a>
+                </div>
+                <div class="contact-right">
+                    <form>
+                        <input type="text" name="Name" placeholder="Your Name" required>
+                        <input type="email" name="Email" placeholder="Your Email" required>
+                        <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+                        <button type="submit" class="btn btn3">submit</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+        <div class="copyright">
+        </div>
+    </div>
+
+
+
+    <script>
+        var tabLinks = document.getElementsByClassName('tab-links');
+        var tabContents = document.getElementsByClassName('tab-contents');
+
+        function openTab(tabName) {
+            for (tabLink of tabLinks) {
+                tabLink.classList.remove('active-link');
+            }
+            for (tabContent of tabContents) {
+                tabContent.classList.remove('active-tab');
+            }
+            event.currentTarget.classList.add('active-link');
+            document.getElementById(tabName).classList.add('active-tab');
+        }
+
+        // JavaScript for handling the mobile navigation menu
+        document.querySelector('.fas.fa-bars').addEventListener('click', function () {
+            document.querySelector('nav ul').classList.toggle('show');
+        });
+
+        document.querySelector('.fas.fa-times').addEventListener('click', function () {
+            document.querySelector('nav ul').classList.remove('show');
+        });
+
+    </script>
+</body>
+
+</html>
